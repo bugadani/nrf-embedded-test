@@ -1,0 +1,6 @@
+[alias]
+nrf51422 = "test --features nrf51422 --target thumbv6m-none-eabi"
+nrf52832 = "test --features nrf52832 --target thumbv7em-none-eabihf"
+
+[unstable]
+build-std = ["core"]

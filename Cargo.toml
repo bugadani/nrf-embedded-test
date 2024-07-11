@@ -16,6 +16,7 @@ embassy-nrf = { git = "https://github.com/embassy-rs/embassy", rev = "ed3da1721a
 [features]
 nrf51422 = ["embassy-nrf/nrf51"]
 nrf52832 = ["embassy-nrf/nrf52832"]
+nrf52833 = ["embassy-nrf/nrf52833"]
 
 [dev-dependencies]
 embedded-test = { version = "0.4.0" }

@@ -1,4 +1,4 @@
-$targets = @("nrf51422", "nrf52832")
+$targets = @("nrf51422", "nrf52832", "nrf52833")
 
 mkdir output -ErrorAction SilentlyContinue
 

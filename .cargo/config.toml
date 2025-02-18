@@ -4,10 +4,10 @@ nrf52832 = "test --features nrf52832 --target thumbv7em-none-eabihf"
 nrf52833 = "test --features nrf52833 --target thumbv7em-none-eabihf"
 
 [target.thumbv6m-none-eabi]
-runner = "probe-rs run"
+runner = "probe-rs run --preverify"
 
 [target.thumbv7em-none-eabihf]
-runner = "probe-rs run"
+runner = "probe-rs run --preverify"
 
 [unstable]
 build-std = ["core"]
